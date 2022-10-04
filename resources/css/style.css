@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+}
+h2 {
+  color: rgb(187, 123, 20);
+}
+h3 {
+  color: #0077ff;
+}
+h4 {
+  color: hsl(157, 53%, 32%);
+}
+
+.h1 {
+  background-color: #0077ff;
+  padding: 20px;
+  text-align: center;
+}
+.h2 {
+  background-color: cadetblue;
+  padding: 20px;
+  text-align: center;
+}
+.h3 {
+  background-color: burlywood;
+  padding: 20px;
+  text-align: center;
+}
+.h4 {
+  background-color: chocolate;
+  padding: 20px;
+  text-align: center;
+}
