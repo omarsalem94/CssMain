@@ -1,3 +1,4 @@
+/* Fonts used */
 @font-face {
   font-family: 'Roboto';
   src: url(../fonts/Roboto-Regular.ttf) format('truetype');
@@ -16,6 +17,7 @@
   font-weight: 100;
 }
 
+/* general rulesets */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -38,12 +40,13 @@ a {
   color: #fff;
 }
 
+/* reusable btn */
 .btn {
   padding: 0.4em 2em;
   background-color: #3882f6;
   border-radius: 7px;
 }
-
+/* header section start */
 header {
   background-color: #1f2937;
   padding: 3em;
@@ -70,10 +73,16 @@ nav {
   gap: 1.8em;
 }
 
+.nav-link {
+  color: #e5e7eb;
+}
+
 .nav-link:last-child {
   margin-right: 5px;
 }
+/* header section start */
 
+/* hero section start */
 .hero {
   background-color: #1f2937;
   padding-top: 4em;
@@ -90,9 +99,6 @@ nav {
   padding: 0 0 9em 0;
 }
 
-.nav-link {
-  color: #e5e7eb;
-}
 
 .hero__text {
   flex: 0 1 35%; 
@@ -118,8 +124,9 @@ nav {
 .hero__img {
   flex: 0 1 45%;
 }
+/* hero section end */
 
-
+/* info section start */
 .information {
   padding: 4em 0;
 }
@@ -148,7 +155,9 @@ nav {
   border-radius: 15px; 
   margin-bottom: 10px;
 }
+/* info section end */
 
+/* testimonials section start */
 .testimonials {
   background-color: #e5e7eb;
   height: 400px;
@@ -175,8 +184,9 @@ nav {
   font-style: normal;
   align-self: flex-end;
 }
+/* testimonials section end */
 
-
+/* cta section start */
 .cta {
   padding: 7em 0;
   color: #fff;
@@ -200,7 +210,9 @@ nav {
 .cta__btn {
   border: 2px solid #fff;
 }
+/* cta section end */
 
+/* footer start */
 footer {
   width: 100%;
   font-size: 16px;
@@ -210,3 +222,4 @@ footer {
   text-align: center;
   font-weight: 100;
 }
+/* footer end */
