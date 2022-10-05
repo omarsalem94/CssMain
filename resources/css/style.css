@@ -48,7 +48,6 @@ header {
   background-color: #1f2937;
   padding: 3em;
   color: #e5e7eb;
-  padding-bottom: 7em;
 }
 
 nav {
@@ -77,6 +76,7 @@ nav {
 
 .hero {
   background-color: #1f2937;
+  padding-top: 4em;
 }
 
 .hero__wrapper {
