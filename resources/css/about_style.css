@@ -49,6 +49,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 4em;
 }
 
@@ -71,4 +72,18 @@
 .about__img img {
   border: 4px solid #000;
   border-radius: 4px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .about__item {
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .about__item__text {
+    flex-basis: 100%;
+  }
+  .about__img {
+    flex-basis: 60%;
+  }
 }

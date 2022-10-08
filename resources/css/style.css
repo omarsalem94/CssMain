@@ -87,6 +87,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 50px;
   padding: 5em 0;
   /* padding: 0 0 9em 0; */
@@ -134,6 +135,7 @@ header {
   margin-top: 3em;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 65px;
 }
 
@@ -187,6 +189,7 @@ header {
   background-color: #3882f6;
   padding: 3em 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
@@ -211,3 +214,22 @@ footer {
   text-align: center;
 }
 /* footer end */
+
+
+@media only screen and (max-width: 1060px) {
+  .hero__wrapper {
+    padding: 5em;
+  }
+
+  .hero__text {
+    flex-basis: 100%;
+  }
+  
+  .hero__img {
+    flex-basis: 100%;
+  }
+
+  .info__container {
+    padding: 3em 4em;
+  }
+}
