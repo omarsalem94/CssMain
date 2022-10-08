@@ -88,8 +88,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding: 2em 0;
-  padding: 0 0 9em 0;
+  padding: 5em 0;
+  /* padding: 0 0 9em 0; */
 }
 
 
